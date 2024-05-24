@@ -1,0 +1,7 @@
+patente_moto;id_pedido;comidas_pedidas;tiempo_estimado;tiempo_real;precio_pedido
+ABC123;1;Hamburguesa;30;15;1550.5
+ABC123;1;Pepsi;30;60;1550.5
+ABC123;1;Coca;30;20;1550.5
+DEF456;2;Gaseosa;45;0;2075.5
+GHI789;3;Sushi;60;2;3000.25
+GHI789;4;caca;60;100;3000.25
