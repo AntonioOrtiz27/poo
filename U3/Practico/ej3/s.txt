@@ -1,0 +1,49 @@
+ cargar csv Para escritura
+ def cargar_csv(self):
+     nom = "UNIDAD 2/EJERCICIOS U2/EJERCICIO 6/"
+     with open(nom,'w',newline='') as archivo_csv:
+       writer = csv.writer(archivo_csv)
+       for cuenta in self.__lista:
+         fila = [cuenta._Cuenta__ape,cuenta._Cuenta__nom,cuenta._Cuenta__DNI,round(cuenta._Cuenta__saldo,2),cuenta._Cuenta__CVU]
+         writer.writerow(fila)
+        
+ ordenar
+ lista = sorted(self.__lista)
+
+ maximo
+ maxi = max(self.__lista) pasa el objeto con el max se debe ocupar el operador > gT
+ si es numpy
+ class gestorcuenta():
+ def __init__(self):
+    self.__lista = np.array([],dtype='object')
+    
+ max = max(self.__lista)
+
+#sobrecarga operador > o <:
+
+   def __gt__(self, other):
+    if self.__promedio == other.getPromedio():
+        return self.__año > other.getAño()
+    else:
+      return self.__promedio > other.getPromedio()
+
+    def __lt__(self, other):
+    if self.__promedio == other.getPromedio():
+        return self.__año < other.getAño()
+    else:
+        return self.__promedio < other.getPromedio()
+    
+    def __lt__(self, other):
+      return self.__año < other.getAño()
+
+    def __gt__(self, other):
+      return self.__año < other.getAño()
+
+#gestor
+
+    def ordenar_Beneficiarios(self):
+		self.__lista=sorted(self.__lista)
+		print("ordenados de mayor a menor o menor a mayor por.")
+		for objeto in self.__lista:
+			print(objeto)
+		print("Lista Ordenada")
