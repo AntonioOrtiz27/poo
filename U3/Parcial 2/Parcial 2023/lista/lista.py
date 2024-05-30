@@ -35,7 +35,7 @@ class Lista:
         for dato in self:
             print(dato)
         
-    def agregar(self, dato):
+    def agregaralfinal(self, dato): 
         aux = self.__cabeza
         nodo = Nodo(dato)
         if aux != None:
@@ -51,6 +51,8 @@ class Lista:
         nodo.set_siguiente(self.__cabeza)
         self.__cabeza = nodo
         self.__tope += 1
+        print("Datos cargados.\n")
+
 
 
     def buscar(self, dato):

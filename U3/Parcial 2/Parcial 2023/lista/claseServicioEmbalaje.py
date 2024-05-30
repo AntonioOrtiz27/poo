@@ -20,6 +20,13 @@ class ServicioE(Servicio):
     def getPrice(self):
         return self.__precio
     
+    def Costito(self):
+        if self.__peso > 50:
+            costo = super().Comision + ((self.__Precio * self.__Cantidad) + (0.1 * self.__Peso)) 
+        else:
+            costo = super().Comision + (self.__Precio * self.__Cantidad)
+        return costo
+    
 
     
 
