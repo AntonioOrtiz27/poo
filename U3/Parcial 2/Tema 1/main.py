@@ -26,7 +26,7 @@ if __name__ == '__main__':
             dato=str(input("ingrese el dato a insertar en la lista(Dpto o Casa):"))
             localidad=input("ingrese localidad:")
             direccion=input("ingrese direccion:")
-            superficie=int(input("ingrese superficie:"))
+            superficie=float(input("ingrese superficie:"))
             if dato == "casa":
                 metros=input("ingrese metros:")
                 casita= Casa(localidad,direccion,superficie,metros)
