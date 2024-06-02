@@ -1,0 +1,19 @@
+{
+    "__class__": "Lista",
+    "calefactores": [
+      {
+        "__class__": "CalefactorElectrico",
+        "__atributos__": {
+          "marca": "MarcaA",
+          "precio": 15000
+        }
+      },
+      {
+        "__class__": "CalefactorGas",
+        "__atributos__": {
+          "marca": "MarcaB",
+          "precio": 18000
+        }
+      }
+    ]
+  }

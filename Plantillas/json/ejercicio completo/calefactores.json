@@ -1,0 +1,59 @@
+{
+    "__class__": "Lista",
+    "calefactores": [
+      {
+        "__class__": "CalefactorElectrico",
+        "__atributos__": {
+          "marca": "MarcaA",
+          "modelo": "ModeloX",
+          "pais": "Argentina",
+          "precio": 15000,
+          "forma_de_pago": "contado",
+          "cuotas": 1,
+          "promocion": "No",
+          "potencia": 2000
+        }
+      },
+      {
+        "__class__": "CalefactorElectrico",
+        "__atributos__": {
+          "marca": "MarcaB",
+          "modelo": "ModeloY",
+          "pais": "Brasil",
+          "precio": 18000,
+          "forma_de_pago": "cuotas",
+          "cuotas": 12,
+          "promocion": "Si",
+          "potencia": 2500
+        }
+      },
+      {
+        "__class__": "CalefactorGas",
+        "__atributos__": {
+          "marca": "MarcaC",
+          "modelo": "ModeloZ",
+          "pais": "Chile",
+          "precio": 22000,
+          "forma_de_pago": "contado",
+          "cuotas": 1,
+          "promocion": "No",
+          "matricula": "GN01-00001-06-057",
+          "calorias": 4000
+        }
+      },
+      {
+        "__class__": "CalefactorGas",
+        "__atributos__": {
+          "marca": "MarcaD",
+          "modelo": "ModeloW",
+          "pais": "Uruguay",
+          "precio": 25000,
+          "forma_de_pago": "cuotas",
+          "cuotas": 6,
+          "promocion": "Si",
+          "matricula": "GN02-00002-06-058",
+          "calorias": 4500
+        }
+      }
+    ]
+  }
